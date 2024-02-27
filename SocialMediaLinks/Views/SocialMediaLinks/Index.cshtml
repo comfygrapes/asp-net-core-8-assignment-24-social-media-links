@@ -1,0 +1,18 @@
+﻿<h1 class="margin-bottom">Social Media Links</h1>
+
+<div class="flex margin-top">
+    <div>
+        <a href="@ViewBag.FacebookLink">Facebook</a>
+    </div>
+    <environment exclude="Development">
+        <div>
+            <a href="@ViewBag.InstagramLink">Instagram</a>
+        </div>
+    </environment>
+    <div>
+        <a href="@ViewBag.TwitterLink">Twitter</a>
+    </div>
+    <div>
+        <a href="@ViewBag.YoutubeLink">Youtube</a>
+    </div>
+</div>
